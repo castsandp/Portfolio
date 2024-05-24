@@ -1,0 +1,221 @@
+img {
+    height: 200px; 
+    border-radius: 20px;
+}
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+figcaption {
+    padding-bottom: 10px;
+}
+
+body {
+    background-image: url("images/background_web.jpg") ;
+    background-size: 500px 200px;
+    background-repeat: repeat ;
+    margin: 10px;
+    padding: 100px 100px 100px 100px;
+    max-width: 90% ;
+    color: rgb(6, 56, 57);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    padding: 10px ;
+    border-bottom: dotted rgb(38, 116, 5);
+    margin: 10px;
+}
+
+main {
+    padding: 10px 10px 10px 10px;
+    border-style: dotted;
+    border-color: rgb(52, 52, 129);
+    border-spacing: 10px 10px 10px 10px;
+    border-radius: 25px;
+
+}
+
+footer {
+    padding-top: 10px;
+}
+
+h1 {
+    color: rgb(94, 7, 79);
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(55, 169, 226);
+    font-size: 35px;
+
+}
+
+h3 {
+    color: rgb(4, 23, 128);
+    font-size: 20px;
+}
+
+p {
+    color: rgb(75, 42, 182);
+    font-size: 20px;
+}
+
+nav {
+    font-size: large;
+}
+
+ol {
+    list-style-type:decimal;
+    color: rgb(41, 3, 54);
+    border-radius: 25px;
+    border: dotted rgb(202, 82, 102);
+    padding: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    size: 10px;
+}
+
+a {
+    color: rgb(61, 19, 100);
+}
+
+a:hover {
+    background-color: rgb(136, 94, 176)
+}
+
+a:active {
+    color: rgb(16, 118, 118);
+}
+
+a:visited {
+    color: rgb(164, 56, 183);
+}
+
+table {
+    border: 2px solid;
+    width: 50%;
+}
+
+th {
+    border: 2px solid;
+    height: 50px;
+    text-align: center;
+}
+
+td {
+    border: 2px solid;
+}
+
+tr {
+    background-color: antiquewhite;
+}
+
+form {
+    background-color: rgb(101, 159, 198);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+fieldset {
+    background-color: rgb(173, 116, 227);
+    color: rgb(155, 14, 84);
+    padding: 10px;
+    border-color: rgb(10, 10, 78);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+input[type=text], [type=email] {
+    width: 75%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+input[type=text]:hover, [type=email]:hover  {
+    background-color: rgb(208, 77, 186);
+}
+
+textarea {
+    width: 75%;
+    padding: 12px 20px;
+    border: 2px solid;
+    background-color: antiquewhite;
+}
+
+textarea:hover {
+    background-color: aqua;
+}
+
+select {
+    width: 75%;
+    padding: 16px 20px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+
+}
+
+.radio {
+    width: 25px;
+    height: 15px;
+}
+
+.homeGuide {
+    color: rgb(219, 135, 178);
+}
+
+label {
+    color: rgb(240, 175, 11);
+}
+
+#I-link {
+    padding: 15px;
+    color: black;
+}
+
+#tableTitle {
+    size: 50px;
+    color: darkblue;
+    
+}
+
+h3:hover {
+    color: black;
+}
+
+button {
+    background-color: rgb(230, 138, 163);
+    color: white;
+    margin: 4px 2px; 
+    width: 100%;
+}
+
+div {
+    border: 1px solid blue;
+    padding: 5px;
+    color: blueviolet;
+    font-size: larger;
+}
+
+span {
+    color: rgb(61, 13, 106);
+    font-size: large;
+}
+
+
+
+
+
+
+
+

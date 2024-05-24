@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sandra Castillo Palacios</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header> 
+        <h1>Sandra Castillo Palacios</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="interests.html">Interest</a></li>
+                <li><a href="style.html" target="_blank">Style</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact</h2>
+                
+            <article>
+                    <p style="color: blue; font-size: large;">This is where you will leave your contact and other useful information!</p>
+            </article>
+        
+            <form action="" method="get">
+                <fieldset>
+                    <legend>User Information</legend>
+                        <label>Name</label>
+                        <input type="text" name="userName" required placeholder="Name">
+                    <br>
+                    <br>
+                        <label>Email</label>
+                        <input type="email" name="userEmail" required placeholder="xxxx@xxxx.xxx">
+                    <br>
+                    <br>
+                        <label>Questions/Comments:</label>
+                    <br>
+                        <textarea name="message" required cols="15" rows="4"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional User Info</legend>
+                        <label>Year In College</label>
+                        <select name="collegeYear" id="collegeYear">
+                            <option value="firstYear">First Year</option>
+                            <option value="secondYear">Second Year</option>
+                            <option value="thirdYear">Third Year</option>
+                            <option value="fourthYear">Fourth Year</option>
+                            <option value="other">Other</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Credits</legend>
+
+                    <p>Fall Term</p>
+                    <label>12</label><input class="radio" type="radio" name="fall" value="12">
+                    <label>13</label><input class="radio" type="radio" name="fall" value="13">
+                    <label>14</label><input class="radio" type="radio" name="fall" value="14">
+                    <label>Other</label><input class="radio" type="radio" name="fall" value="other">
+
+                    <p>Winter Term</p>
+                    <label>12</label><input class="radio" type="radio" name="winter" value="12">
+                    <label>13</label><input class="radio" type="radio" name="winter" value="13">
+                    <label>14</label><input class="radio" type="radio" name="winter" value="14">
+                    <label>Other</label><input class="radio" type="radio" name="winter" value="other">
+
+                    <p>Spring Term</p>
+                    <label>12</label><input class="radio" type="radio" name="spring" value="12">
+                    <label>13</label><input class="radio" type="radio" name="spring" value="13">
+                    <label>14</label><input class="radio" type="radio" name="spring" value="14">
+                    <label>Other</label><input class="radio" type="radio" name="spring" value="other">
+
+                </fieldset>
+                
+                <p><button>Submit</button></p>
+                
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p> &copy 04/15/2024 CS290-Web Development @ Oregon State University</p>
+    </footer>
+</body>
+</html>
