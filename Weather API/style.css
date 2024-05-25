@@ -1,0 +1,102 @@
+h1 {
+    background-color: #20358f;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* these two add style to the two dropdowns */
+#stateDropDown1 {
+    width: fit-content;
+    background-color: #8a96c6;
+}
+
+#stateDropDown2 {
+    width: fit-content;
+    background-color: #8a96c6;
+}
+
+/* these are in charge of giving the table style */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(:first){
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+  
+tr:hover {background-color: #8a96c6;}
+  
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #20358f;
+    color: white;
+}
+
+/* giving the table caption style */
+.cityLabel {
+    size: 50px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* gives the city input style */
+#city_one {
+    background-color: #8a96c6;
+}
+
+#city_two {
+    background-color: #8a96c6;
+}
+
+/* giving the input sections margins */
+.inputLocation{
+    margin: 10px;
+}
+
+
+/* gives the button style */
+button {
+    background-color: #2f3f9a; /* Green */
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* resizes the icon */
+.icon {
+    width: 2rem;
+}
+
+/* makes the please enter a city text red */
+.fieldCheck {
+    color: red; 
+}
+
+
+/* gives the footer the same style as the header 1 */
+footer {
+    background-color: #20358f;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
