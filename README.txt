@@ -1,16 +1,7 @@
-Sandra Castillo Palacios
-castsand@oregonstate.edu
+This is Sandra Castillo's Portfolio. 
 
-Description:
-The main goal of this program was to create a shell. This shell uses forking and execvp which allows it to process diffrent types of command line commands.
-There are three built in functions being cd, exit, and status - that have their own specififed fucntionlity betweeen the program. This shell supports directory change,
-comment lines and blank lines. It can take in signals such as crtl z and ctrl c which have speciffiec actions. This shell supports redirection and foreground as well
-background processes. Overall it should simulate a linux shell.
+This repo contains projects from cs290 and cs362. Important things to note are that the Math Game was a collaborative group project, in which I was a part of. 
+The software_test_1 folder includes two programs - verify email and verify passowrd which were programs I was told to create test for. Only the test were my creation.
+In Software_Test_2_UI files with test in the name are test that I implemented. Other files such as html, css, and js files wothout keyword test where provided in order to complete the assignments.
 
-
-Compilation Process:
-To compile this program there is a designated make file. To compile run make. This will automatically run with the
-gcc --std=gnu99 compiler. Then run with the executable ./smallsh to execute the program.
-
-* I did include the p3testscript in the zip file so to run the test script with this program, after making in the cwd run ./p3testscript 2>&1 and the test results
-should be printed to the terminal.
+Thank you!
